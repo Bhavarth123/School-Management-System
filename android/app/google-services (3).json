@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "456762065480",
+    "project_id": "chool-management-428c8",
+    "storage_bucket": "chool-management-428c8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456762065480:android:c0c4806a97730f27cc8e7d",
+        "android_client_info": {
+          "package_name": "com.example.school_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456762065480-qb6o1mu6tftam1e4eq1v6mr1d7umfnhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJBWS3wSPzVWkEppGKzM0Awa_HblhQVPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456762065480-qb6o1mu6tftam1e4eq1v6mr1d7umfnhl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "456762065480-qjvitb5hjn04ruar1rvprigiihf9bns0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.schoolManagement"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
