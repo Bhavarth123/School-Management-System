@@ -12,6 +12,7 @@ class _TodayAttendanceState extends State<TodayAttendance> {
     return Scaffold(
       body: Column(
         children: [
+        
           AttendanceCard(
             attendance: true,
             endtime: "10 AM",
