@@ -17,7 +17,7 @@ class OverallAttendanceCard extends StatefulWidget {
   @override
   _OverallAttendanceCardState createState() => _OverallAttendanceCardState();
 }
-
+//started
 class _OverallAttendanceCardState extends State<OverallAttendanceCard>
     with SingleTickerProviderStateMixin {
   late Animation animation, delayedAnimation;
@@ -100,7 +100,7 @@ class _OverallAttendanceCardState extends State<OverallAttendanceCard>
                     ],
                   ),
 
-                  // 🔹 Labels
+                  // Labels
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -119,10 +119,10 @@ class _OverallAttendanceCardState extends State<OverallAttendanceCard>
                     ],
                   ),
 
-                  // 🔹 First Half
+                  // First Half
                   _statusCircle(widget.firsthalf),
 
-                  // 🔹 Second Half
+                  // Second Half
                   _statusCircle(widget.secondhalf),
                 ],
               ),
@@ -133,7 +133,7 @@ class _OverallAttendanceCardState extends State<OverallAttendanceCard>
     );
   }
 
-  // 🔥 Reusable widget
+  //  Reusable widget
   Widget _statusCircle(bool status) {
     return Container(
       padding: EdgeInsets.all(10),
